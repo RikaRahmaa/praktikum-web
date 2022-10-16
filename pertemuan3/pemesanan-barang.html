@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang - Rika Rahma</title>
+</head>
+<body style="background-color: whitesmoke;">
+    <div style="width: 85%; height: 100%; background-color: white; margin: auto;">
+        <table>
+            <td style="width: 100px;"><a href="#">Home |</a></td>
+            <td style="width: 180px;"><a href="#">Generate Link |</a></td>
+            <td style="width: 200px;"><a href="#">Transaction History |</a></td>
+            <td style="width: 100px;"><a href="#">Policy |</a></td>
+            <td ><a href="#">Logout</a> |</a></td>
+        </table>
+    </div>
+
+    <div style="width: 85%; height: 800px; background-color: whitesmoke; margin: auto; margin-top: 20px; line-height: 50px;">
+        <div style="float: right; width: 76%; background-color: whitesmoke; height: 900px;">
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="">Title Here :</label></td>
+                        <td><input style="width: 97%;" type="text" value="Macbook Air €800"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Description :</label></td>
+                        <td><textarea name="" id="" cols="76" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Account Number :</label></td>
+                        <td><input style="width: 97%;" type="text" name="account_holder" value="123-456-789-0"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Bank</label></td>
+                        <td>
+                            <select style="width: 97%;">
+                                <option>HSBC</option>
+                                <option>BCA</option>
+                                <option>BNI</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Account Holder :</td>
+                        <td><input style="width: 97%;" type="text" value="Name Here"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Transaction</label></td>
+                        <td>
+                            <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><label>*If the transaction is for 3 person, choose 3 from the drop-down list</label><br>
+                            <input type="checkbox">
+                            <label style="color:green;" for="">Send to Mobile Phone</label><br>
+                            <input type="checkbox">
+                            <label for="" style="color: green;">Send to Email</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Send To Mobile Phone</label></td>
+                        <td><input style="width: 100%;" type="text" value="1234567890, 1234567891"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Send to Email</label></td>
+                        <td><input style="width: 100%;" type="text" value="mfmm2913@gmail.ac.uk.fya_06@yahoo.com"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button style="background-color: green; color: white; width: 200px; height: 30px;"">Generate Nabr Link</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div style="width:250px; background:whitesmoke; height:350px;">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QDxAPDxASDRAQDQ0ODRANEBAPDw4NFREWFhURFRYYHSggGBolGxUWITEhJSkrLi4uFx8zODUsNygtLisBCgoKDg0OGA8QGDcfHR0rLS03KystLystLSsrKy0tKysrKy0rKy0tLSstLSstKysrLS0rLSstLS0rLisrLS4rK//AABEIAHsBmgMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQQCAwUGB//EAEAQAAIBAgEGCggEBgIDAAAAAAABAgMRBAUSITFRUgYTFBVBYZGSodEWIlNxgbHB8DIzYqMjQoPS4fGTokNygv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIREBAAIBAwUBAQAAAAAAAAAAAAERAgMTUQQSFEFhITH/2gAMAwEAAhEDEQA/APhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEpAQDdTws5ao9pco5Im9fggOaD1WB4Kzna1OUut6F26jsR4PUMOs7EVqWH6m1nP4f7LQ8HSwtSX4YSfuTt2l3D5BxM9Chb3u78Lnp62X8m0dFKFTFSXS/Uhf4+Ry8Xw1xMlm0Y08NHozIqUu16PAfg3YPgFi5q8pU6MemVSWbFHH4QZLpYWpGnTxNPGXhnTlRvmwndrMvqfRqZUxePrVnerVnU/8AeTaXuXQVgAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUjbTws30doGkHSo5Kk9Z18DwcqTtm02+u2jtegtDzMKUnqTZZpZPm+o9osgUqKzsRWp0FslJOXYaKuWsmUNEIzxUl1ZsL/G3yYocLC5Dcnazk9iV/BHewfBSpa7iqa6XNqP8Ak52K4b12s2hTp4aP6Y50u16PA4ONynXrP+LVnU6pSeb2agPaVI5Nw/5uIVSS/koLOd9jav8AQp1uGVCnowuFV+idd3fYvM8YBY7eP4V42tdOs6cX/LR/hrtWnxONObbu25N623dsxBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlICAboYab6C1SyZJ6wOeZRpt6lc9HguD05/hpuXXbR2vQdePB+FJZ2Iq06C/VJNloeNpYGb6i/hsjOTtZyexI71TK2TKH4VPFSWxZsL+92+pQxPDWtbNw9Knh49SzpeXgBewfBao1dxVNbZvNt9TfOlk/D/nYhTkv5KKznfZov9Dx2NypiK35tWdTqcnm9i0FMWPZVuF2Hp6MNhU30TrvT77afmcjHcK8bV0Oq6cd2isxduvxOICWMpzcneTcm9bk22zEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABshRlLUmBrBepZNk9fgdPBZBnP8MJS67O3bqFDgRg3qVyxTwM31Hr4cHlTWdXqU6Ef1SV/LxNdTKOTKGrPxUluq0e3R9S0ODh8kNtKzk9iO3g+DFV6czMW2fq/5K2I4Z1Es3D0aeHW22dL6LwOJjcq4it+bWnNbL2j2LQB6yeGwND8/ExlJa4UfWfhf6FWrwqwtPRhsLnPonXfjbT9DyAsLHbxvCvGVdHGcVHZRWZo9+vxOLUqSk7ybk3rcm238WRYWIIBNhYCATYWAgE2JsBiDKwsBiDKwsBiDKwAxBIAgEgCASAIBIAgEgCASAIAAAAAAAAAAAAAACUgIB0sHkWvU/lcV1rT2eZ28PwYhBZ1acILpdSS+WotDy1KjKX4U38i7h8kzlr7I6WekeLydR0XniZLopq0O3R8zVV4UyirUKNPDra1nT+i+ZqMJlYiZYYLgvUeni81b1TR89JeeT8JR/OxEW1rjS9Z32dPyOBicq16v46kp36G7R+EVoMKUOmWl/fYdcdCZajG3o45Vw8PyMNnW/nr/ADtp+hoxuVsTUX5sqKtojRUYt/HX4nMVa2rR79Y4y/T8FpbZ12IdowwU62Dcnecqk3tlJSfazGGTE+mSS1tqNkdKNtctWxdP393InVb6LJal0EnQxXbxcqWAjvS7q8yI4C7snJt/oX9x0730I33VNaPxvW91efyM7MJtYuNVyeouzm7rXaGp7PxGHJI777n+TqZu0yw9BTkl0XV/v71GdpNqHNnk6yTcrZ17Xg/M18jW+u6zsYyefLRqXqw9yK86aJOmTpx6U4ZObTanGy16JeRDwD34f9vI61L1cPL9VSK7Lv6FZxJOCTpxCjTyfKTspRb/APv+0urg1iWrqMWmrr1nq7Dbh55s4y3Wr+7pPcYCunTt0xfbHWaw0u5vT0scv68F6NYrcXeI9HMVuLvI+k8YuoZ62I7R0rfj4vmr4PYr2X/aHmYvIGK9i+9DzPpmctiGctiNeJCbGPL5i8hYr2Mu2HmQ8iYn2Mu2PmfTW1sRDzdiNeHCbGPL5i8jYn2M/DzMXknEexn3T6bLN2GqVthfBhNmOXzV5Mrr/wAVTuSNVTCVI6ZU5xXS5QkkvA+kztsNUnHZ4/4Mz0X1mdKOXzXNGae3xuSMPU0qLpS2xtZ+9Wt4fE4eLyJOGlevHeitXv2Hmz6fLFynCnDsLF6WFZqdA5drNK1iLG90jF0yUjVYg2OJGaShgDKxFiCAABAJIAAAAAAAAAHqMh0FPDyqUKUFOi4xrTqSlebk5WcdD6FpWg8ud/IGWaVChXpTUs6rOnKLik42inoenrA6Eljpq0atKkv056fbmsqT4O4mbvKrTm9sp1W/GJbw2WKG190v08t0N591mokcdcF8R0Tpd6f9pmuCmI6Z0+9LyLE1g5SlJ1J3lJy0wUrX6E2tReybjMLQzs2c5Z+be8WkrX1L4m41JW3NXBnErVxXfd/kPRrFbKb/AKi+p1coZRw1aGY6k4espXjF6bX0PatJz8zC+3muuNNp/B30G/Iyj0vc1Lg5idlP/kgbFkHErVGD/qU9P3sO3z5h96XdY59w+8+6zXkZcLGcw4byFiXrjF/1YeZDyDiPZr4Th/cd3n3D7z7rHPmH3n3GN+eF3JcaORcTH8NJt7U4v46+xfH3a3kTFexm/ivM7vPmG3n3GRz5ht59xjf+Luy4byJibfkzT2JLzNyyViYxaVGo29GiPa/p8Drc+Yba+4xz3htr7jG/8Xd+OC8kYn2NTusxlkrEexqdyfkeg58w28+6yefcPvS7sibvxN344VfAVlSjHiqj9a7/AIcnb1SrLBVvZVP+Ofkeo5/ob8uyRPpBR9pPskSdWJ9E6t+nluS1M23Fzve6/hv/AGeiyVKateMlnRV7pqzXvN/pDR9pPsmPSGj7SfZM1hrds3S461elxMm5S9IaPtJ9kx6Q0faT7JHbzPjfkfF64uUfSGhvv4wv9B6Q0N79teRuOtjhN/4vElD0hob37S8h6Q0N79peRqOujg3l1o1yRV9IaG9+0vIjn/D7f2zUdfjxLO63uCMXSXWaefcN9wkOfcL9xn5ieuw4lmdRseHXWFhl0No18+4X7jPzIeXsN9xqeZyy6vGWe5lVydTmvWir7UrPwOXi+D8tdN562PRLyZffCPDrZ3anma5cKKK1JP4VPM4ZamGXpLebr4RxdpJxexqzKs6J6uOX6NVqNWipQ6fVlnL3XloOJVpLoOX5LUfrkypmuUDoVKZXnAkwUpuJi0WJRNUkZmEpqaIM2jFmUYgkgiIBJAAAAAABMUbFRk9SMYMs06tiis6b2ErO6+02zmQpClpCc9rJUqm1mSmZqZaKa06u1mS43azaqhkqhaWoabVdrJUau1m9VEZKqhS1CuoVdrJ4qrtZZVVGaqotQVCpxNXeZlxFXeZbVZGSrIVBUKfJqu8yeS1d5l1V0Sq6FQtQpckq7xPI6u8y8q6MliEWoKhz+RVd4nkNXeOhyhE8oQqCoc/kFXefgOb6u8dHlCJ5QhUL2w53N1Xe8RzdV3vE6XKUOUoVBUObzdV3vEc21d7xOnylEcpQqDthzebau94kc21d7xOnylDlKFQdsOZzdV3vEjm6rveJ0+UoxeJRKg7Yc7m+rveJHN9Xe8TovEoxeIFQVDnvAVd7xI5BV2+JeeIMXiBUJUKXIam3xMo4Wa2dpZeIMXXFQfjBUpr/AGbI1JrWY8eYOsFtYcrmiojW6xhKsW0tjNGmRlKoa3IzaSxZgZNmLZllDIJIIgQSQAAAAAASmZKRgAM84jOMQBnnE55rAsbc8njDSC2W38aTxpXAtbWONJ44rAWWtccTx5UAstb5QTygpgWWu8oHKespAWWvcpHKSiBZa/ykcq6ygBZa/wAq6xyrrKAFluhyrrHKus54Flr/ACrrHKusoAWWv8qI5SUQLLXuUkcoKQFlrnKCOPKgFlrXHEOsVgLLWONI400AWW3cYQ5moCy2xyMbmIJaMrkEACSAAAAAAAAAAP/Z" alt="" width="250" height="250">
+            <input type="submit" value="Upload picture">
+        </div>
+
+    </div>
+</body>
+</html>
